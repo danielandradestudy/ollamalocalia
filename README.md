@@ -22,9 +22,9 @@ Abaixo está o passo a passo definitivo para corrigir todos esses pontos e rodar
 
 ---
 
-## 🛠️ Passo 1: Configurar o Ollama (Host) para Aceitar Conexões
+## 🛠️ Passo 1: Configurar o Ollama (Host) para Aceitar Conexões 
 
-Precisamos dizer ao serviço do Ollama no Linux que ele pode responder a requisições de outras interfaces de rede (como a ponte do Docker).
+Aqui eu parto do pressuposto de que você já tem o Ollama instalado e já carregado com algum modelo de LLM! Após isso, Precisamos dizer ao serviço do Ollama no Linux que ele pode responder a requisições de outras interfaces de rede (como a ponte do Docker).
 
 1. No terminal do Linux, abra o editor de configuração do serviço:
 ```bash
